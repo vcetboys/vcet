@@ -1,0 +1,87 @@
+// Explore the internal and external commands of Linux
+
+1)pwd
+ubuntu@ubuntu-hp1:~$ pwd
+
+
+2)mkdir
+ubuntu@ubuntu-hp1:~$ mkdir Test
+ubuntu@ubuntu-hp1:~$ ls
+
+ 
+3)cd
+ubuntu@ubuntu-hp1:~$ cd Test
+ubuntu@ubuntu-hp1:~/Test$ cd ..
+
+4)touch
+ubuntu@ubuntu-hp1:~/Test$ touch hello.txt
+ubuntu@ubuntu-hp1:~/Test$ ls
+hello.txt
+
+5)cat
+ubuntu@ubuntu-hp1:~/Test$ cat >> hello.txt
+How are you??
+
+6)mv
+ubuntu@ubuntu-hp1:~/Test$ mv hello.txt how.txt
+ubuntu@ubuntu-hp1:~/Test$ ls
+how.txt
+
+7)grep
+ubuntu@ubuntu-hp1:~/Test$ grep hello*.txt
+
+8)rm
+ubuntu@ubuntu-hp1:~/Test$ ls
+how.txt
+ubuntu@ubuntu-hp1:~/Test$ rm how.txt
+ubuntu@ubuntu-hp1:~/Test$ ls
+
+9)Date
+ubuntu@ubuntu-hp1:~/Test$ date
+
+
+10)time
+ubuntu@ubuntu-hp1:~/Test$ time
+
+
+11)free
+ubuntu@ubuntu-hp1:~/Test$ free
+
+
+12)echo
+ubuntu@ubuntu-hp1:~/Test$ echo "hola"
+
+
+13)ps
+ubuntu@ubuntu-hp1:~$ ps
+
+
+14)cal(calender)
+ubuntu@ubuntu-hp1:~$ cal
+
+
+15)chmod
+ubuntu@ubuntu-hp1:~$ cd Test
+ubuntu@ubuntu-hp1:~/Test$ touch hello.txt
+ubuntu@ubuntu-hp1:~/Test$ ls -l
+total 0
+-rw-rw-r-- 1 ubuntu ubuntu 0 Mar 10 10:36 hello.txt
+ubuntu@ubuntu-hp1:~/Test$ sudo chmod +x hello.txt
+ubuntu@ubuntu-hp1:~/Test$ ls -l
+total 0
+-rwxrwxr-x 1 ubuntu ubuntu 0 Mar 10 10:36 hello.txt
+
+16)chown
+ubuntu@ubuntu-hp1:~/Test$ chown ubuntu hello.txt
+ubuntu@ubuntu-hp1:~/Test$ ls -l
+total 0
+-rwxrwxr-x 1 ubuntu ubuntu 0 Mar 10 10:36 hello.txt
+
+
+
+
+
+
+
+
+

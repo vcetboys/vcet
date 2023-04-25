@@ -1,0 +1,51 @@
+//Explore User management commands of Linux
+
+1)useradd
+ubuntu@ubuntu-hp1:~$ sudo useradd Sharvesh
+[sudo] password for ubuntu: 
+
+ubuntu@ubuntu-hp1:~$ sudo tail /etc/group
+
+
+ubuntu@ubuntu-hp1:~$ sudo usermod -g developers Sharvesh
+ubuntu@ubuntu-hp1:~$ sudo tail /etc/group
+
+
+ubuntu@ubuntu-hp1:~$ sudo usermod -G developers Sharvesh
+ubuntu@ubuntu-hp1:~$ sudo tail /etc/group
+
+
+2) userdel
+ubuntu@ubuntu-hp1:~$ sudo userdel vikram
+ubuntu@ubuntu-hp1:~$ sudo tail /etc/group
+
+
+3) groupadd
+
+ubuntu@ubuntu-hp1:~$ sudo groupadd vcet
+ubuntu@ubuntu-hp1:~$ sudo tail /etc/group
+
+ubuntu@ubuntu-hp1:~$ sudo useradd -g vcet Paras
+
+4)who
+
+ubuntu@ubuntu-hp1:~$ who
+ubuntu   tty2         2023-03-10 01:05 (tty2)
+
+5)Whoami
+ubuntu@ubuntu-hp1:~$ whoami
+ubuntu
+
+6)passwd
+ubuntu@ubuntu-hp1:~$ sudo passwd ubuntu
+
+
+
+
+
+
+
+
+
+
+

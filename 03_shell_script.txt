@@ -1,0 +1,51 @@
+//Shell script Programming
+
+1) Perform the basic arithmetic operations
+
+Sum.sh
+
+a=12
+b=15
+sum=$(($a+$b))
+echo "sum is $sum "
+
+Output:
+
+ubuntu@ubuntu-hp1:~$ ./random.sh
+sum is 27 
+
+2) Display top 10 process in ascending order
+
+ubuntu@ubuntu-hp1:~$ top -b -o -%CPU|head -n 22
+
+     
+3) Display processes with highest memory usage
+
+ubuntu@ubuntu-hp1:~$ top -b -o +%MEM|head -n 22
+
+
+4)Display current logged in user and log name
+
+ubuntu@ubuntu-hp1:~$ echo "The current user is: "$(whoami)
+The current user is: ubuntu
+
+5)Display current shell, Home Directory, Kernal Version
+
+ubuntu@ubuntu-hp1:~$ echo "$SHELL"
+
+ubuntu@ubuntu-hp1:~$ echo "The current home directory is: $HOME"
+The current home directory is: /home/ubuntu
+
+ubuntu@ubuntu-hp1:~$ uname -r
+5.19.0-32-generic
+
+
+
+
+
+
+
+
+
+
+
